@@ -1,6 +1,3 @@
-Berikut adalah isi file `README.md` yang telah kamu minta:
-
-````markdown
 # E-Course Laravel Livewire - Membuat Employee Management App
 
 Selamat datang di repository **E-Course Laravel Livewire: Membuat Aplikasi Manajemen Karyawan Sederhana**! 🚀
@@ -40,10 +37,11 @@ Jangan lewatkan kesempatan untuk meningkatkan skill coding kamu! Ikuti e-course 
 ## 📌 Cara Menggunakan Repository Ini
 
 1. Clone repository ini:
+
     ```bash
     git clone https://github.com/username/e-course-laravel-livewire-employee-app.git
+
     ```
-````
 
 2. Instal dependencies:
 
