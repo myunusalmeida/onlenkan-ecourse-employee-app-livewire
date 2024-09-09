@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 8px 16px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-nav .nav-item .nav-link.active {
+  background: rgba(var(--bs-primary-rgb), 0.2);
+  color: var(--bs-blue);
+}
+
+.table thead tr th {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--bs-secondary);
+}
+
+.table tr {
+  vertical-align: middle;
+}
+
+.table tbody tr td .btn {
+  width: 36px;
+  height: 36px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+}
